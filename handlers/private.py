@@ -20,7 +20,7 @@ async def start_(client: Client, message: Message):
                ],
                 [
                     InlineKeyboardButton(
-                        "Repo ✨", url=f"https://github.com/BOSS3D/BossMusic")
+                        "Repo ✨", url=f"https://github.com/SUKHPAL443/BossMusic")
                ], 
                 [
                     InlineKeyboardButton(
@@ -38,13 +38,13 @@ async def start_(client: Client, message: Message):
 @Client.on_message(command(["repo"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/87f1fb4d1ab2e95cfcbfe.png",
+        photo=f"https://telegra.ph/file/87f1fb4d1ab2e95cfcbfe.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Repo 💞", url=f"https://github.com/BOSS3D/BossMusic")
+                        "💥 Repo 💞", url=f"https://github.com/SUKHPAL443/BossMusic")
                 ]
             ]
         ),
